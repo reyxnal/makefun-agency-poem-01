@@ -5,9 +5,10 @@ Deterministic by construction: the poem is a fixed string literal, there is
 no network, no randomness, no clock, and no input file. Every run writes
 exactly the same bytes. Python 3.13, standard library only.
 
-Read-back verification (this session, 2026-11-14, after contest open):
-two runs wrote byte-identical entry.txt, sha256
-44e5c413643fa924c18813ee30786a1092bb87c75e7884831ec28549a824225a (968 bytes).
+Read-back verification (follow-up session, 2026-11-14, after contest open):
+two fresh runs in this session wrote byte-identical entry.txt, sha256
+44e5c413643fa924c18813ee30786a1092bb87c75e7884831ec28549a824225a (968 bytes,
+962 chars) — same digest as the pre-open draft test.
 """
 
 import os
